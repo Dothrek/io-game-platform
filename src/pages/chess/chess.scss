@@ -1,0 +1,63 @@
+page-chess {
+
+    .tablero {
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+      width: fit-content;
+    }
+
+    .fila {
+      min-height: 12.5%;
+      max-height: 12.5%;
+    }
+
+    .casilla {
+      font-size: 2em;
+      text-align: center;
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+      // min-width: 50px;
+      // min-height: 50px;
+      // max-width: 50px;
+      // max-height: 50px;
+      min-width: 12.5%;
+      min-height: 12.5%;
+      // max-width: 12.5%;
+      // max-height: 12.5%;
+    }
+
+    .black {
+      background-color: rgba(130, 100, 90, 0.7);
+    }
+
+    .white {
+      background-color: rgba(170, 150, 180, 0.2);
+    }
+
+    .Blanca {
+      color: white;
+    }
+
+    .Negra {
+      color: black;
+    }
+
+    .movable {
+      background-color: rgba(0, 200, 0, 0.2);
+    }
+
+    .attacked {
+      background-color: rgba(200, 0, 0, 0.2);
+    }
+
+    .capturas {
+      background: pink;
+    }
+
+    .transparent {
+      color: transparent;
+    }
+
+}
